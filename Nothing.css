@@ -1,0 +1,752 @@
+.body{
+    margin: 0%;
+}
+/* fisrt section */
+.firstsection{
+    width: 100%;
+    height: 530px;
+}
+.left-fs{
+    width: 63%;
+    height: 530px;
+    background-image: url(./Nt1img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+.right-fs{
+    width: 37%;
+    height: 530px;
+    background: rgb(249, 246, 246); 
+    
+    float: left;
+}
+.lsidetxt{
+    width: 18%;
+    height: 530px;
+    padding-top: 0%;
+    margin-top: 0%;
+    float: left;
+}
+@font-face {
+    font-family: "Ndot-55";
+    font-weight: 400;
+    font-style: normal;
+    src: url("//cdn.shopify.com/s/files/1/0586/3270/0077/t/6/assets/Ndot-55.otf?v=18522138017450180331657461225"); 
+  }
+  @font-face {
+    font-family: "NType82";
+    font-weight: 400;
+    font-style: normal;
+    src: url("//cdn.shopify.com/s/files/1/0586/3270/0077/t/6/assets/NType82-Regular.otf?v=166738954582626444901657461227");
+  }
+  @font-face {
+    font-family: "NType82Mono";
+    font-weight: 400;
+    font-style: normal;
+    src: url("//cdn.shopify.com/s/files/1/0586/3270/0077/t/6/assets/NType82Mono-Regular.otf?v=95544947759877126221657461236");
+  }
+.lsidetxt h2{    
+    font-size: calc(10vw);
+    writing-mode: vertical-lr;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    margin-left: -10px;
+    font-weight: normal;
+    color: black;
+    letter-spacing: 1px;
+
+    
+}
+.header-ls{
+    width: 82%;
+    height: 45px;
+    float: left;
+    padding-top: 5px;
+    
+}
+.header-ls a{
+    color: black;
+    text-decoration: none;
+}
+.header-ls h3{
+    color: black;
+    float: left;
+    margin-left: 110px;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-weight: normal;
+    font-size: medium;
+
+
+}
+.rgttop{
+    width: 100%;
+    height: 45%;
+    color: black;
+    padding-top: 5px;
+    margin-left: 20px;
+
+}
+.rgttop a{
+    color: black;
+    text-decoration: none;
+}
+.rgttop h3{
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-weight: normal;
+    font-size: medium;
+}
+.rgtbottom{
+    padding: 0%;
+    margin-left: 20px;
+    color: black;
+}
+.ftsubrgt{
+    font-weight: normal;
+    margin-right: 60px;
+    float: left;
+    font-family: 'NType82Mono' !important;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.rgtbottom h2{
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: 'NType82' !important;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    letter-spacing: 2px;
+}
+.rgtbottom p{
+    float: left;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    line-height: 0.5cm;
+    margin-right: 50px;
+    word-spacing: 3px;
+}
+.rgtbottom a{
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+/* second section */
+.secondsection{
+    width: 100%;
+    height: 175px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.firstlist{
+    width: 32%;
+    height: 175px;
+    float: left;
+}
+.secondlist{
+    width: 32%;
+    height: 175px;
+    float: left;
+}
+
+.thirdlist{
+    width: 32%;
+    height: 175px;
+    float: left;
+}
+.fltop{
+    height: 20px;
+    padding-left: 40%;
+    padding-top: 30px;
+    margin-bottom: 0%;
+}
+.fltop img{
+    width: 90px;
+    height: 20px;
+}
+.flbtm{
+    text-align: center;
+    font-family: 'NType82' !important;
+    font-size: 1.5625rem !important;
+    line-height: 1.15;
+    letter-spacing: 0.3px;
+    padding-top: 0%;
+
+}
+.sltop{
+    height: 20px;
+    padding-left: 40%;
+    padding-top: 30px;
+    margin-bottom: 0%;
+}
+.sltop img{
+    width: 26px;
+    height: 16px;
+}
+.slbtm{
+    text-align: center;
+    font-family: 'NType82' !important;
+    font-size: 1.5625rem !important;
+    line-height: 1.15;
+    letter-spacing: 0.3px;
+    padding-top: 0%;
+
+}
+.tltop{
+    height: 20px;
+    padding-left: 40%;
+    padding-top: 30px;
+    margin-bottom: 0%;
+}
+.tltop img{
+    width: 26px;
+    height: 14px;
+}
+.tlbtm{
+    text-align: center;
+    font-family: 'NType82' !important;
+    font-size: 1.5625rem !important;
+    line-height: 0.5cm;
+    letter-spacing: 0.3px;
+    padding-top: 0%;
+
+}
+/* third section */
+.thirdsection{
+    width: 100%;
+    height: 530px;
+}
+.left-ts{
+    width: 63%;
+    height: 530px;
+    background-image: url(./earstick.webp);
+    background-size: 100%;
+    float: left;
+
+    
+}
+.right-ts{
+    width: 37%;
+    height: 530px;
+    background: rgb(249, 246, 246); 
+    
+    float: left;
+}
+.tdlftxt{
+    width: 18%;
+    height: 530px;
+    padding-top: 0%;
+    margin-top: 0%;
+    float: left;
+    white-space: nowrap;
+}
+.tdlftxt h2{    
+    font-size: calc(10vw);
+    writing-mode: vertical-lr;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    margin-left: -10px;
+    font-weight: normal;
+    color: black;
+    letter-spacing: 1px;
+
+    
+}
+.tdrgt{
+    padding-top: 45%;
+    margin-left: 20px;
+    color: black;
+}
+.tdsubrgt{
+    font-weight: normal;
+    margin-right: 60px;
+    float: left;
+    font-family: 'NType82Mono' !important;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.tdrgt h2{
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: 'NType82' !important;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    letter-spacing: 2px;
+}
+.tdrgt p{
+    float: left;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    margin-right: 40px;
+    line-height: 0.5cm;
+    word-spacing: 3px;
+}
+.tdrgt a{
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+/* Fourth section */
+.fourthsection{
+    width: 100%;
+    height: 530px;
+}
+.left-frs{
+    width: 63%;
+    height: 530px;
+    background-image: url(./ear1Nt.webp);
+    background-size: 100%;
+    float: left;
+
+    
+}
+.right-frs{
+    width: 37%;
+    height: 530px;
+    background: rgb(249, 246, 246); 
+    
+    float: left;
+}
+.fhlftxt{
+    width: 18%;
+    height: 530px;
+    padding-top: 0%;
+    margin-top: 0%;
+    float: left;
+    white-space: nowrap;
+}
+.fhlftxt h2{    
+    font-size: calc(10vw);
+    writing-mode: vertical-lr;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    margin-left: -10px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 1px;
+
+    
+}
+.fhrgt{
+    padding-top: 55%;
+    margin-left: 20px;
+    color: black;
+}
+.fhsubrgt{
+    font-weight: normal;
+    margin-right: 0px;
+    float: left;
+    font-family: 'NType82Mono' !important;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.fhrgt h2{
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: 'NType82' !important;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    letter-spacing: 2px;
+}
+.fhrgt p{
+    float: left;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    line-height: 0.5cm;
+    margin-right: 40px;
+    word-spacing: 3px;
+}
+.fhrgt a{
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+}
+/* Fifth section */
+.fifthsection{
+    width: 100%;
+    height: 530px;
+}
+.left-fts{
+    width: 63%;
+    height: 530px;
+    background-image: url(./aboutusNt.webp);
+    background-size: 100%;
+    float: left;
+
+    
+}
+.right-fts{
+    width: 37%;
+    height: 530px;
+    background: rgb(249, 246, 246); 
+    
+    float: left;
+}
+.fthlftxt{
+    width: 18%;
+    height: 530px;
+    padding-top: 0%;
+    margin-top: 0%;
+    float: left;
+    white-space: nowrap;
+}
+.fthlftxt h2{    
+    font-size: calc(10vw);
+    writing-mode: vertical-lr;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    margin-left: -10px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 1px;
+
+    
+}
+.fthrgt{
+    padding-top: 49%;
+    margin-left: 20px;
+    color: black;
+}
+.fthsubrgt{
+    font-weight: normal;
+    margin-right: 20px;
+    float: left;
+    font-family: 'NType82Mono' !important;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.fthrgt h2{
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: 'NType82' !important;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    letter-spacing: 2px;
+}
+.fthrgt p{
+    float: left;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    line-height: 0.5cm;
+    margin-right: 40px;
+    word-spacing: 6px;
+}
+.fthrgt a{
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+}
+/* Sixth section */
+.sixthsection{
+    width: 100%;
+    height: 530px;
+}
+.left-ss{
+    width: 63%;
+    height: 530px;
+    background-image: url(./where2buyNt.webp);
+    background-size: 100%;
+    float: left;
+
+    
+}
+.right-ss{
+    width: 37%;
+    height: 530px;
+    background: rgb(249, 246, 246); 
+    
+    float: left;
+}
+.shlftxt{
+    width: 18%;
+    height: 530px;
+    padding-top: 0%;
+    margin-top: 0%;
+    float: left;
+    white-space: nowrap;
+}
+.shlftxt h2{    
+    font-size: calc(10vw);
+    writing-mode: vertical-lr;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    margin-left: -10px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 1px;
+
+    
+}
+.shrgt{
+    padding-top: 42%;
+    margin-left: 20px;
+    color: black;
+}
+.shsubrgt{
+    font-weight: normal;
+    margin-right: 50px;
+    float: left;
+    font-family: 'NType82Mono' !important;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.shrgt h2{
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: 'NType82' !important;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    letter-spacing: 2px;
+}
+.shrgt p{
+    float: left;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    line-height: 0.5cm;
+    margin-right: 40px;
+    word-spacing: 5px;
+}
+.shrgt a{
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+}
+/* Seventh section */
+.seventhsection{
+    width: 100%;
+    height: 530px;
+}
+.left-svns{
+    width: 63%;
+    height: 530px;
+    background-image: url(./supportNt.webp);
+    background-size: 100%;
+    float: left;
+
+    
+}
+.right-svns{
+    width: 37%;
+    height: 530px;
+    background: rgb(249, 246, 246); 
+    
+    float: left;
+}
+.svnlftxt{
+    width: 18%;
+    height: 530px;
+    padding-top: 0%;
+    margin-top: 0%;
+    float: left;
+    white-space: nowrap;
+}
+.svnlftxt h2{    
+    font-size: calc(10vw);
+    writing-mode: vertical-lr;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    margin-left: -10px;
+    font-weight: normal;
+    color: black;
+    letter-spacing: 1px;
+
+    
+}
+.svnrgt{
+    padding-top: 18%;
+    margin-left: 20px;
+    color: black;
+}
+.svnsubrgt{
+    font-weight: normal;
+    margin-right: 50px;
+    float: left;
+    font-family: 'NType82Mono' !important;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.svnrgt h2{
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: 'NType82' !important;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    line-height: 1.4cm;
+    letter-spacing: 2px;
+}
+.svnrgt p{
+    float: left;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    line-height: 0.5cm;
+    margin-right: 40px;
+    word-spacing: 5px;
+}
+.svnrgt a{
+    letter-spacing: 2px;
+    font-family: 'NType82' !important;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+}
+/* Footer Section */
+.footersection{
+    width: 100%;
+    height: 265px;
+    background-color: #DCD7D2;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.ftfirst{
+    width: 815px;
+    height: 220px;
+    float: left;
+}
+.ftdetails{
+    width: 25%;
+    height: 220px;
+    color: black;
+    float: left;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 0;
+
+}
+.ftdetails a{
+    color: black;
+    text-decoration: none;
+}
+.ftsecond{
+    width: 400px;
+    height: 220px;
+    float: left;
+    padding-left: 40px;
+}
+.ftdetails2{
+    width: 100%;
+    height: 220px;
+    color: black;
+    float: left;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 0;
+    word-spacing: 2px;
+    margin-left: 50px;
+}
+.ftdetails2 a{
+    color: black;
+    text-decoration: none;
+}
+.ftthird{
+    width: 44%;
+    height: 30px;
+    float: left;
+}
+.ftdetails3{
+    width: 30%;
+    height: 30px;
+    color: black;
+    float: left;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 0px;
+}
+.ftdetails3 a{
+    color: black;
+    text-decoration: none;
+}
+.ftdetails33{
+    width: 40%;
+    height: 30px;
+    color: black;
+    float: left;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 0px;
+}
+.ftdetails33 a{
+    color: black;
+    text-decoration: none;
+}
+.ftfourth{
+    width: 56%;
+    height: 30px;
+    float: left;
+    padding-top: 15px;
+}
+.ftdetails4{
+    width: 60%;
+    height: 30px;
+    color: black;
+    float: left;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 0px;
+    padding-left: 60px;
+}
+.ftdetails44{
+    width: 25%;
+    height: 30px;
+    color: black;
+    float: left;
+    font-family: "Ndot-55";
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 0px;
+    text-align: right;
+}
+.ftdetails44 a{
+    color: black;
+}
